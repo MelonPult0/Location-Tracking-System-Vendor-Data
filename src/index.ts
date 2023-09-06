@@ -1,6 +1,7 @@
 import { 
   dynamodbCreateTable,
-  dynamodbDescribeTable
+  dynamodbDescribeTable,
+  dynamodbDeleteTable
  } from './aws';
 
 const init = async () => {
@@ -22,7 +23,10 @@ const init = async () => {
     // dynamodbCreateTable(vendorsTestTableParams);
   
   // 2 - describe table
-    dynamodbDescribeTable(TABLE_NAME_CONST);
+    // dynamodbDescribeTable(TABLE_NAME_CONST);
+  
+  // 3 - delete table
+    dynamodbDeleteTable(TABLE_NAME_CONST);
 } 
 
 init();
