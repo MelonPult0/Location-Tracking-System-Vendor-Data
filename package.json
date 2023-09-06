@@ -1,0 +1,15 @@
+{
+  "name": "Location-Tracking-System-Vendor-Data",
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.405.0",
+    "aws-sdk": "^2.1452.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
