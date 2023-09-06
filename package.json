@@ -1,15 +1,17 @@
 {
   "name": "Location-Tracking-System-Vendor-Data",
-  "packageManager": "yarn@3.6.3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MelonPult0/Location-Tracking-System-Vendor-Data.git",
+  "author": "Mingxuan Tang <tmx9903@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "node \"build/index.js\""
   },
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.405.0",
-    "aws-sdk": "^2.1452.0",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
+    "aws-sdk": "^2.1448.0",
+    "dotenv": "^16.3.1",
     "typescript": "^5.2.2"
   }
 }

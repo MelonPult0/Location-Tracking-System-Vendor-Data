@@ -19,7 +19,7 @@ __metadata:
   resolution: "Location-Tracking-System-Vendor-Data@workspace:."
   dependencies:
     "@aws-sdk/util-dynamodb": ^3.405.0
-    aws-sdk: ^2.1452.0
+    aws-sdk: ^2.1448.0
     dotenv: ^16.3.1
     typescript: ^5.2.2
   languageName: unknown
@@ -32,7 +32,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1452.0":
+"aws-sdk@npm:^2.1448.0":
   version: 2.1452.0
   resolution: "aws-sdk@npm:2.1452.0"
   dependencies:
@@ -161,17 +161,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ieee754@npm:1.1.13":
+"ieee754@npm:1.1.13, ieee754@npm:^1.1.4":
   version: 1.1.13
   resolution: "ieee754@npm:1.1.13"
   checksum: 102df1ba662e316e6160f7ce29c7c7fa3e04f2014c288336c5a9ff40bbcc2a27d209fa2a81ebfb33f28b1941021343d30e9ad8ee85a2d61f79f5936c35edc33d
-  languageName: node
-  linkType: hard
-
-"ieee754@npm:^1.1.4":
-  version: 1.2.1
-  resolution: "ieee754@npm:1.2.1"
-  checksum: 5144c0c9815e54ada181d80a0b810221a253562422e7c6c3a60b1901154184f49326ec239d618c416c1c5945a2e197107aee8d986a3dd836b53dffefd99b5e7e
   languageName: node
   linkType: hard
 
@@ -245,17 +238,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sax@npm:1.2.1":
+"sax@npm:1.2.1, sax@npm:>=0.6.0":
   version: 1.2.1
   resolution: "sax@npm:1.2.1"
   checksum: 8dca7d5e1cd7d612f98ac50bdf0b9f63fbc964b85f0c4e2eb271f8b9b47fd3bf344c4d6a592e69ecf726d1485ca62cd8a52e603bbc332d18a66af25a9a1045ad
-  languageName: node
-  linkType: hard
-
-"sax@npm:>=0.6.0":
-  version: 1.2.4
-  resolution: "sax@npm:1.2.4"
-  checksum: d3df7d32b897a2c2f28e941f732c71ba90e27c24f62ee918bd4d9a8cfb3553f2f81e5493c7f0be94a11c1911b643a9108f231dd6f60df3fa9586b5d2e3e9e1fe
   languageName: node
   linkType: hard
 
